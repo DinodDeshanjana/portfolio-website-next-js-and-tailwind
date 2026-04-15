@@ -1,6 +1,7 @@
 import Image from "next/image";
 import profileImage from "../public/p2.png";
 import graphisDesign from "../public/design.png";
+import code from "../public/code.png";
 
 import {BsFillMoonStarsFill } from "react-icons/bs";
 import {IoLogoGithub} from "react-icons/io";
@@ -56,14 +57,28 @@ export default function Home() {
 
         <section>
           <div>
-            <h2>Services I offer</h2>
+            <h2  className="text-5xl py-10 font-bold opacity-60">Services I offer</h2>
              <p className="text-sm py-4 text-gray-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis vitae hic consequatur quos voluptatum ratione inventore quo voluptas tempore error, quas molestiae eos, dignissimos minima saepe. Explicabo nisi eum fugit.</p>
           </div>
 
           <div>
-            <div>
-              <Image src={graphisDesign} alt="design image" width={100} height={100}/>
+            <div className="bg-yellow-300 text-center shadow-sm p-5 rounded-xl my-10">
+              <Image src={graphisDesign} alt="design image" width={100} height={100} className="inline"/>
+              <h2 className="text-2xl font-bold">Graphic Design</h2>
+              <p className="text-sm py-2 text-gray-800 leading-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla quisquam quia eaque, magnam ipsam facilis dolore distinctio natus tempore, similique corrupti.</p>
             </div>
+
+             <div className="bg-yellow-300 text-center shadow-sm p-5 rounded-xl my-10">
+              <Image src={code} alt="design image" width={100} height={100} className="inline"/>
+              <h2 className="text-2xl font-bold">Graphic Design</h2>
+              <p className="text-sm py-2 text-gray-800 leading-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla quisquam quia eaque, magnam ipsam facilis dolore distinctio natus tempore, similique corrupti.</p>
+            </div>
+
+             <div className="bg-yellow-300 text-center shadow-sm p-5 rounded-xl my-10">
+              <Image src={graphisDesign} alt="design image" width={100} height={100} className="inline"/>
+              <h2 className="text-2xl font-bold">Graphic Design</h2>
+              <p className="text-sm py-2 text-gray-800 leading-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla quisquam quia eaque, magnam ipsam facilis dolore distinctio natus tempore, similique corrupti.</p>
+            </div> 
           </div>
         </section>
 
