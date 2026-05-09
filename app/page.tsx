@@ -19,7 +19,7 @@ export default function Home() {
           {/* nav and hero section*/}
 
           <nav className="py-10 flex justify-between">
-            <h1 className="text-sm md:text-xl">Developed b adomic arts</h1>
+            <h1 className="text-sm md:text-xl">Deshanjana</h1>
             <ul className="flex items-center">
               {/* icon */}
               <li>
@@ -35,7 +35,7 @@ export default function Home() {
 
           {/* hero */ }
           <div className="text-center p-10">
-            <h1 className="text-5xl font-bold text-yellow-400 md:text-6xl lg:text-7xl lg:mb-4">Adomic arts</h1>
+            <h1 className="text-5xl font-bold text-yellow-400 md:text-6xl lg:text-7xl lg:mb-4">Deshanjana</h1>
             <h3 className="text-2xl py-4 md:text-3xl">Mobile Apps and website developer</h3>
             <p className="text-sm py-4 text-gray-400 max-w-xl mx-auto md:text-md ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis vitae hic consequatur quos voluptatum ratione inventore quo voluptas tempore error, quas molestiae eos, dignissimos minima saepe. Explicabo nisi eum fugit.</p>
           </div>
